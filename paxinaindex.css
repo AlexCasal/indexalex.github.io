@@ -1,0 +1,94 @@
+/*Estou execuntando a páxina con Google Chrome*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabeceira{
+    background-color: black;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.intro{
+    text-align: center;
+    font-size: 150%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+/*Tarefas*/
+.tarefa1{
+    text-align: center;
+    background-color: rgb(241, 235, 235);
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+    border: 3px solid black;
+    height: 200px;
+    width: 50%;
+    border-radius: 20px;
+}
+.tarefa1 a:hover{
+    color: rgb(146, 114, 74);
+}
+.tarefa1:hover{
+    background-color: rgb(184, 197, 197);
+}
+.tarefa2{
+    text-align: center;
+    background-color: rgb(241, 235, 235);;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+    border: 3px solid black;
+    height: 200px;
+    width: 50%;
+    border-radius: 20px;
+}
+.tarefa2 a:hover{
+    color: rgb(146, 114, 74);
+}
+.tarefa2:hover{
+    background-color: rgb(184, 197, 197);
+}
+.tarefa3{
+    text-align: center;
+    background-color: rgb(241, 235, 235);;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+    border: 3px solid black;
+    height: 200px;
+    width: 50%;
+    border-radius: 20px;
+}
+.tarefa3 a:hover{
+    color: rgb(146, 114, 74);
+}
+.tarefa3:hover{
+    background-color: rgb(184, 197, 197);
+}
+.tarefas{
+    display: flex;
+}
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 20px
+}
+footer a:hover{
+    color: rgb(146, 114, 74);
+}
